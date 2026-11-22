@@ -12,8 +12,8 @@ export default defineConfig({
     name: 'social-image-url',
     transformIndexHtml(html) {
       const host = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL
-      const origin = process.env.SOCIAL_SITE_URL || (host ? `https://${host}` : '')
-      return html.replaceAll('%SOCIAL_IMAGE_URL%', `${origin.replace(/\/$/, '')}/assets/IMG_1095.jpg`)
+      const origin = process.env.SOCIAL_SITE_URL || process.env.URL || (host ? `https://${host}` : '')
+      return html.replaceAll('%SOCIAL_IMAGE_URL%', `${origin.replace(/\/$/, '')}/assets/share-preview-1095.jpg`)
     },
   }],
   resolve: {
