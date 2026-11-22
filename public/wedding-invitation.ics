@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Balaraman and Kaviya Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:balaraman-kaviya-wedding-20261129@invitation
+DTSTAMP:20261109T000000Z
+DTSTART:20261128T230000Z
+DTEND:20261129T003000Z
+SUMMARY:T. Balaraman & K. Kaviya Wedding
+DESCRIPTION:Please join us with your family. Location: https://maps.app.g
+ oo.gl/V4LY4qBjrNb8VWAq9
+LOCATION:Om Sri Bhavani Amman Temple\, Sanidhi\, T. Kenipattu Village
+URL:https://maps.app.goo.gl/V4LY4qBjrNb8VWAq9
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:balaraman-kaviya-reception-20261129@invitation
+DTSTAMP:20261109T000000Z
+DTSTART:20261129T123000Z
+DTEND:20261129T143000Z
+SUMMARY:T. Balaraman & K. Kaviya Wedding Reception
+DESCRIPTION:Please join us with your family. Location: https://maps.app.g
+ oo.gl/wv47jZEKPy6D14WdA
+LOCATION:JAS Thirumana Mandapam\, Rettanai Road
+URL:https://maps.app.goo.gl/wv47jZEKPy6D14WdA
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
